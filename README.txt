@@ -34,9 +34,11 @@ Many of the characteristics can be changed through the config.json file.
 These characteristics may include parameters such as the language to sort for when 
 requesting news articles.
 
-Once installed the dashboard can be started by running ui.py
-
 All the files can be found at: https://github.com/funnycones/Covid-Dashboard.git
+
+Once installed the dashboard can be started by running ui.py
+Once the program is running, the website can be found at:
+http://127.0.0.1:5000/index
 
 
 
