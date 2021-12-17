@@ -106,6 +106,9 @@ Valid values to certain parameters can be found at https://newsapi.org/
 
 The image displayed as well as favicon can be changed through the \static\images\"image".jpg path. 
 Make certain that any images you want to be displayed are in the file location listed above.
+The code under return render_template in index() will then have to be changed to this new image path
+specifically:		image="'image'.jpg",
+                        favicon="static/images/'favicon'.ico")
 
 
 Further configuration:
